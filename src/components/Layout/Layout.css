@@ -1,0 +1,13 @@
+.layout {
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-secondary);
+}
+
+.layout__content {
+    /* width: 90%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+}
