@@ -1,7 +1,7 @@
 .layout {
     width: 100vw;
     height: 100vh;
-    background: var(--color-secondary);
+    /* background: var(--color-secondary); */
 }
 
 .layout__content {
