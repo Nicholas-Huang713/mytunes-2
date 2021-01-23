@@ -4,7 +4,6 @@
     background: var(--color-primary);
 }
 
-
 .nav__home {
     background: var(--color-secondary);
     display: inline-block;
@@ -60,31 +59,25 @@
     cursor: pointer;
 }
 
-.nav__dropdown {
-    /* background: blue; */
-    /* height: 100; */
-    /* width: 100vw; */
-}
-
-.nav__dropdown button {
-    display: inline;
-}
-
 .nav__dropdown__content {
     text-align: center;
     position: absolute;
     background: var(--color-secondary);
     width: 100vw;
-    /* display: inline-block;  */
-    /* left: 45%; */
     top: 0;
-    /* bottom: 2; */
-    /* height: 20px; */
+    font-size: medium;
+    z-index: 1;
+}
+
+.nav__dropdown__content a {
+    font-size: x-large;
+    position: relative;
+    top: 5%;
 }
 
 .nav__dropdown__content span{
     position: absolute;
-    top: 2%;
+    top: 3%;
     right: 0;
     color: white;
 }

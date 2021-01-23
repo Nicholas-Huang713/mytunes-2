@@ -1,0 +1,57 @@
+.home {
+    width: 100vw;
+    text-align: center;
+}
+
+.home__title {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://a.espncdn.com/photo/2020/0403/r686012_1296x729_16-9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.home__title::before {
+    background-color: rgba(0,0,0,0.25);
+    opacity: 0.25;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+    content: "";
+}
+
+.home__title h1 {
+    position: relative;
+    color: #ffffff;  
+    font-size: 10rem;
+    line-height: 0.9;
+}
+
+@media (max-width: 840px) {
+    .home__title {
+        height: 300px;
+        
+    }
+
+    .home__title h1 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .home__title {
+        height: 200px;
+        
+    }
+
+    .home__title h1 {
+        font-size: 3rem;
+    }
+}

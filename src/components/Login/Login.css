@@ -1,0 +1,56 @@
+.login {
+    border: 1px solid;
+    max-width: 500px;
+    margin-top: 1%;
+}
+
+.login__form {
+    height: 90vh;
+}
+
+.login__form div {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.login__form label {
+    text-align: left;
+}
+
+.login__form__title {
+    background: var(--color-primary);
+    width: 100%;
+    color: var(--color-secondary);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.login__form__content input {
+    width: 95%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.login__form__content label {
+    text-align: left;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.login__form__content button {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 15%;
+    color: white;
+}
+
+.btn-cancel {
+    background: red;
+}
+
+.btn-continue {
+    background: green;
+}

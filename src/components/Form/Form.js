@@ -1,12 +1,6 @@
-import React, {useState} from 'react'
-import './Login.css';
+import React from 'react'
 
-export default function Login() {
-    // const [firstName, setFirstName] = useState('');
-    // const [lastName, setLastName] = useState('');
-    // const [firstName, setFirstName] = useState('');
-    // const [firstName, setFirstName] = useState('');
-    // const [firstName, setFirstName] = useState('');
+export default function Form() {
     return (
         <div className="login">
             <form className="login__form">

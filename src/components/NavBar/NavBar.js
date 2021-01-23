@@ -15,16 +15,16 @@ export default function NavBar() {
             </div>
             <div className="nav__dropdown">
                 <div id="nav__menu">
-                    <div className="nav__menu__btn" onClick={() => setToggleMenu(prev => !prev)}>
-                        {toggleMenu ? 'X' : <span>&#9776;</span> }
-                    </div>
+                    <span className="nav__menu__btn" onClick={() => setToggleMenu(prev => !prev)}>
+                        {toggleMenu ? 'X' : <span>&#9776;</span>}
+                    </span>
                 </div>
                 {toggleMenu ? 
                     <div className="nav__dropdown__content">
                         <span><button onClick={() => setToggleMenu(prev => !prev)}>X</button></span>
-                        <Link to="/"><button id="home-text" onClick={() => setToggleMenu(prev => !prev)}><b>Home</b></button></Link>
+                        <Link to="/"><a href="#"onClick={() => setToggleMenu(prev => !prev)}><b>Home</b></a></Link>
                         <br/>
-                        <Link to="/login"><button onClick={() => setToggleMenu(prev => !prev)}>Login</button></Link>
+                        <Link to="/login"><a href="#"onClick={() => setToggleMenu(prev => !prev)}>Login</a></Link>
                     </div>
                     :
                     <></>
